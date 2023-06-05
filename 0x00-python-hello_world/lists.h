@@ -8,7 +8,7 @@
 * @n: integer
 * @next: points to the next node
 * Made by MEGA
-* Description: singly linked list 
+* Description: singly linked list
 */
 
 typedef struct listint_s
