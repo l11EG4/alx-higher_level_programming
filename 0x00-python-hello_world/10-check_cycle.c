@@ -12,13 +12,13 @@ int check_cycle(listint_t *list)
 	listint_t *slw = list;
 	listint_t *fst = list;
 
-	if (!list)
+	if(!list)
 		return (0);
 
-	while (slw && fst && fst->nxt)
+	while (slw && fst && fst->next)
 	{
-		slw = slw->nxt;
-		fst = fst->nxt->nxt;
+		slw = slw->next;
+		fst = fst->next->next;
 		if (slw == fst)
 			return (1);
 	}
