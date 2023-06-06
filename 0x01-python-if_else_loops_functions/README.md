@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>0x01 Python - If/Else, Loops, and Functions</title>
-</head>
-
 <body>
   <h1>0x01 Python - If/Else, Loops, and Functions</h1>
 
@@ -35,9 +30,7 @@
 
   <h2>How to Use</h2>
 
-  <p>To use any of the scripts, you can run them using a Python interpreter or execute them within an integrated development environment (IDE) of
-
- your choice.</p>
+  <p>To use any of the scripts, you can run them using a Python interpreter or execute them within an integrated development environment (IDE) of your choice.</p>
 
   <p>For example, to run <code>0-positive_or_negative.py</code>, you can use the following command in your terminal:</p>
 
