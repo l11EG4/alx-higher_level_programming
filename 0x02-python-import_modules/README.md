@@ -1,4 +1,4 @@
-<h1>0x02-python-import_modules</h1>
+<h1 align = 'center'>0x02-python-import_modules</h1>
 <p>This repository contains Python scripts for various exercises related to importing modules in Python.</p>
 
 <h2>Files</h2>
