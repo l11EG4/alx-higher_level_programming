@@ -15,7 +15,7 @@ void reverse_listint(listint_t **head)
 
   while (crt)
     {
-      next = current->next;
+      next = crt->next;
       crt->next = prev;
       prev = crt;
       crt = next;
