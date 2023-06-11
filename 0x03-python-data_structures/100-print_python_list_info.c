@@ -8,13 +8,13 @@
 
 void print_python_list_info(PyObject *p)
 {
-	int sz, alloc, a;
+	int size, alloc, a;
 	PyObject *obj;
 
-	sz = Py_SIZE(p);
+	size = Py_SIZE(p);
 	alloc = ((PyListObject *)p)->allocated;
 
-	printf("[*] Size of the Python List = %d\n", sz);
+	printf("[*] Size of the Python List = %d\n", size);
 	printf("[*] Allocated = %d\n", alloc);
 
 	for (a = 0; a < size; a++)
