@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# MEGA - TRON
 a = 89
 b = 10
 a, b = b, a
