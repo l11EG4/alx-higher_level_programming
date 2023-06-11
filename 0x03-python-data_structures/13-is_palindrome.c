@@ -56,7 +56,7 @@ int is_palindrome(listint_t **head)
 
   reverse_listint(&dup);
 
-  while (dup && temp)
+  while (dup && tmp)
     {
       if (tmp->n == dup->n)
 	{
