@@ -3,14 +3,13 @@
 # Made by Megtron
 
 def magic_calculation(a, b):
-    results = 0
+    rs = 0
     for i in range(1, 3):
         try:
             if i > a:
                 raise Exception('Too far')
-            else:
-                results += a ** b / i
-        except:
-            results = b + a
+            rs += a ** b / i
+        except Exception:
+            rs = b + a
             break
-    return (results)
+    return rs
