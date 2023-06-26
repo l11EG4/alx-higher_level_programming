@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#made by Megatron
 
 import sys
 
