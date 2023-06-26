@@ -1,6 +1,6 @@
 /*
 * File: 103-python.c
-* Auth: Type Your Name Here
+* Auth: Type ur Name Here
 * Made by Megatron
 */
 
@@ -11,7 +11,7 @@ void print_python_bytes(PyObject *p);
 void print_python_float(PyObject *p);
 
 /**
-* print_python_list - Prints basic info about Python lists.
+* print_python_list - Prints basic inf about Python lists.
 * @p: A PyObject list object.
 * Made by Megatron
 */
@@ -52,7 +52,7 @@ void print_python_list(PyObject *p)
 /**
 * print_python_bytes - Prints basic info about Python byte objects.
 * @p: A PyObject byte object.
-* Made by megtron
+* Made by Megtron
 */
 
 void print_python_bytes(PyObject *p)
