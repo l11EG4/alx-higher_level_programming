@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
+# Made by Megatron
+
 import sys
 
-# Made by Megatron
 
 def safe_print_integer_err(value):
     """Prints an intg with "{:d}".format().
