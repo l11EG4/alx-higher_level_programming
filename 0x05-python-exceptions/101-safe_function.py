@@ -1,22 +1,13 @@
 #!/usr/bin/python3
 
-import sys
-
+# Made by Megatron
 
 def safe_function(fct, *args):
-    """Execut funct safely.
-
-    Args:
-        fct: funct to execute.
-        args: Arg for fct.
-
-    Returns:
-        If an error occurs - None.
-        Otherwise - the result of the call to fct.
-    """
+    import sys
     try:
-        result = fct(*args)
-        return (result)
-    except:
-        print("Exception: {}".format(sys.exc_info()[1]), file=sys.stderr)
-        return (None)
+        rs = fct(*args)
+    except Exception as i:
+        sys.stderr.write("Exception: {}\n".format(i))
+        rs = None
+
+    return (rs)
