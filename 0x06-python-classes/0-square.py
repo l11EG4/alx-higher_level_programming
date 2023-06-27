@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-#made by MEGATRON
+# made by MEGATRON
 
 """Define class Squar"""
 
