@@ -2,24 +2,6 @@
 
 # Made by MEGATRON
 
-"""Solves the N-queens puzzle.
-
-Determines all possible solutions.
-
-Example:
-    $ ./101-nqueens.py N
-
-N must be an integer greater than or equal to four.
-
-Attributes:
-    board (list): A list of lists represent the chess board.
-    solutions (list): A list of lists contain the solutions.
-
-Solutions are represented in the format [[r, c], [r, c], [r, c], [r, c]]
-where `r` and `c` represent the row and column, respectively, where a
-queen must be placed on the chess board.
-"""
-
 import sys
 
 
@@ -94,16 +76,7 @@ def xout(board, row, col):
 
 
 def recursive_solve(board, row, queens, solutions):
-    """Recursively solve an N-queens puzzle.
-
-    Args:
-        board (list): the current working chess board.
-        row (int): the current working row.
-        queens (int): the current numb of placed queens.
-        solutions (list): a list of solutions.
-    Returns:
-        solutions
-    """
+"""Returm: solutions"""
     if queens == len(board):
         solutions.append(get_solution(board))
         return (solutions)
