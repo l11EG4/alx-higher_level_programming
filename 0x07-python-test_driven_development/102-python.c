@@ -1,16 +1,10 @@
-/*
-* File: 102-python.c
-* Made by MEGATRON
-*/
-
 #include "Python.h"
 
 /**
-* print_python_string - Prints inf about Python strs.
-* @p: A PyObject str obj
-* Made by MEGATRON
+* print_python_string - Prints info about Python strs.
+* @p: A PyObject string object.
+* Made by Megatron
 */
-
 void print_python_string(PyObject *p)
 {
 	long int length;
@@ -28,8 +22,10 @@ void print_python_string(PyObject *p)
 
 	if (PyUnicode_IS_COMPACT_ASCII(p))
 		printf("  type: compact ascii\n");
+
 	else
 		printf("  type: compact unicode object\n");
+
 	printf("  length: %ld\n", length);
 	printf("  value: %ls\n", PyUnicode_AsWideCharString(p, &length));
 }
