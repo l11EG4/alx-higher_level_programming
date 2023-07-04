@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-#Made by MEGATRON
+# Made by MEGATRON
 
 """Solves the N-queens puzzle.
 
