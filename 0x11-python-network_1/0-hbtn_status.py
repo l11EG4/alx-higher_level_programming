@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-# Made by MEGA
 """
-Write Pt script that fetches
 https://intranet.hbtn.io/status; display response
 """
 
