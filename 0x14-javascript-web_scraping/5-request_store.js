@@ -1,4 +1,5 @@
 #!/usr/bin/node
+/* MADE by MEGA */
 const writeFile = require('fs').writeFile;
 const request = require('request');
 const [url, fileName] = process.argv.splice(2);
